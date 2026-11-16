@@ -1,6 +1,6 @@
 const Banner = ({ image, text }) => { 
     return ( 
-         <div className="banner">
+         <div className={text ? "banner banner--with-text" : "banner"}>
             <img src={image} alt="" />
             
              {text && <h1>{text}</h1>}
