@@ -2,6 +2,8 @@
 @use "layouts/main-layout";
 @use "components/header";
 @use "components/footer";
+@use "components/banner";
+@use "components/card-logement";
 body {
   background-color: white;
   
