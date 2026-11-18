@@ -16,7 +16,7 @@ const Collapse = ({ title, content }) => {
                 </button>
             </h2>
             <div className={`collapse__content ${isOpen ? "collapse__content--open" : ""}`}>
-                <p>{content}</p>
+                <div>{content}</div>
             </div>
         </div>
     );
