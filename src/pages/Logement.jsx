@@ -1,15 +1,15 @@
 import {useParams} from "react-router";
 import Logements from "../data/logements.json";
-import Error from "../pages/NotFound";
 import Slideshow from "../components/Slideshow";
 import Collapse from "../components/Collapse";
 import starIcon from "../assets/icons/star.svg";
 import starActiveIcon from "../assets/icons/star-active.svg"
+import { Navigate } from "react-router";
 const Logement = () => {
     const { id } = useParams();
     const logement = Logements.find(logement => logement.id === id);
         if (!logement) {
-        return <Error />;
+        return <Navigate to="/404" replace />;
     }
     
     return (
