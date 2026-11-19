@@ -1,0 +1,22 @@
+.about__collapse {
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+    gap: 30px;
+    @media screen and (width <= 768px) {
+        gap: 20px  ;
+        
+        .collapse__button {
+            font-size: 13px;
+            height: 30px;
+            padding-block: 0;
+        }
+        .collapse__icon{
+            width: 16px;
+            height: auto;
+        }
+        .collapse__content{
+            font-size: 12px;
+        }
+    }
+}

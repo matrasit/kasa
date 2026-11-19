@@ -31,4 +31,33 @@
         }
 
     } 
+
+    @media screen and (width <=768px){
+        padding-inline: 20px;
+        box-sizing: border-box;
+        height: 46px;
+        img{
+            width: 145px;
+            height: auto;
+
+        }
+        nav{
+           
+            ul{
+                gap: 15px;
+                a{
+                    font-size: 14px;
+                    text-transform:uppercase;
+                }
+            }
+        }
+
+
+    
+    }
+    @media screen and (width <=350px){
+        img{
+            width: 99px;
+        }
+    }
 }
