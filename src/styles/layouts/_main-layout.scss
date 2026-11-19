@@ -6,4 +6,12 @@
     main {
         flex: 1;
     }
+    @media screen and (width <= 768px) {
+        min-height: auto;
+        main {
+            padding-inline: 20px;
+            
+
+        }
+    }
 }

@@ -34,4 +34,17 @@
         font-size: 18px;
         font-weight: 500;
     }
+    @media screen and (width <= 768px) {
+        height: 255px;
+        &_prev,
+        &_next {
+            img{
+                height: 24px;
+                width: 24px;
+            }
+        }
+        &_counter{
+            display: none;
+        }
+    }
 }
