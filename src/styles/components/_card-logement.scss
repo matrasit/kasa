@@ -22,7 +22,7 @@
         content: "";
         position: absolute;
         inset: 0;
-        background: linear-gradient(#ffffff00, #0a0a0a66, #04040433, #00000080);
+        background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.5) 100%);
         }
         img {
             width: 100%;
